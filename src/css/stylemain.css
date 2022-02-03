@@ -9,7 +9,7 @@
 	text-align: center;
 	color: white;
 
-	background-image: url('https://luckycloverdev.github.io/src/images/ProfileBG.png');
+	background-image: url('/src/images/ProfileBG.png');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
