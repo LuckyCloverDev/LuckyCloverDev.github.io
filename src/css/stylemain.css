@@ -27,16 +27,16 @@
 
 .banner .btn {
 	display: block;
-	width: 200px;
+	width: 150px;
 
-	padding: 1em;
-	margin-top: 50px;
+	padding: 0.5em;
+	margin-top: 25px;
 	margin-left: auto;
 	margin-right: auto;
 
 	color: white;
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 1em;
 
 	border: 3px solid white;
 	border-radius: 20px;
