@@ -1,3 +1,27 @@
+.navbar {
+	background-color: rgba(27, 26, 31);
+	overflow: hidden;
+}
+
+.navbar a {
+	float: right;
+	color: white;
+	text-align: center;
+	padding: 0.5em;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.navbar a:hover {
+	background-color: darkgreen;
+	color: greenyellow;
+}
+
+.navbar a.active {
+	background-color: lightgreen;
+	color: darkgreen;
+}
+
 .banner {
 	width: 100vw;
 	height: 50vh;
