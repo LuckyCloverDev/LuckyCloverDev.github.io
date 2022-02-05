@@ -18,8 +18,11 @@
 	background-attachment: fixed;
 }
 
-.banner div {
-	display: inline-block;
+.banner .btn-line {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .banner h1 {
