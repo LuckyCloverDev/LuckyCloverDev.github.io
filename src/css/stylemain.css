@@ -18,6 +18,10 @@
 	background-attachment: fixed;
 }
 
+.banner div {
+	display: inline-block;
+}
+
 .banner h1 {
 	font-size: 5em;
 
