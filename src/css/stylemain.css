@@ -47,6 +47,10 @@
 	background-attachment: fixed;
 }
 
+.banner a:hover {
+	background-color: rgba(21, 162, 197, 0.63);
+}
+
 .banner .btn-line {
 	display: flex;
 	flex-direction: row;
