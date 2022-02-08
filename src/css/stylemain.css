@@ -92,6 +92,8 @@
 .page-content {
 	width: 80vw;
 	color: white;
+	align-items: center;
+	justify-content: left;
 }
 
 html {
