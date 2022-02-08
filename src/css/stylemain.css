@@ -90,10 +90,12 @@
 }
 
 .page-content {
+	margin: auto;
 	width: 80vw;
 	align-items: center;
 	justify-self: center;
 	justify-content: left;
+	text-align: left;
 }
 
 .page-content h2 {
