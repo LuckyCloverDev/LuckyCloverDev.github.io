@@ -89,6 +89,11 @@
 	background-color: rgba(27, 26, 31, 0.63);
 }
 
+.page-content {
+	width: 80vw;
+	color: white;
+}
+
 html {
 	background-color: rgb(27, 26, 31);
 }
