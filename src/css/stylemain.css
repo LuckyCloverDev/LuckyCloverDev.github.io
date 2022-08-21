@@ -89,6 +89,10 @@
 	background-color: rgba(27, 26, 31, 0.63);
 }
 
+.main-section {
+	background-image: linear-gradient(to upper left, rgb(12, 72, 12), black);
+}
+
 .page-content {
 	margin: auto;
 	width: 50vw;
