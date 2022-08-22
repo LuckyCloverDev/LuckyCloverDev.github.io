@@ -90,7 +90,7 @@
 }
 
 .main-section {
-	background-image: linear-gradient(to upper left, rgb(12, 72, 12), black);
+	background-image: linear-gradient(rgb(12, 72, 12), black);
 	
 	width: 100vw;
 	height: max-content;
