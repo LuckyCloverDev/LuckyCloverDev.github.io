@@ -51,32 +51,30 @@ a {
 
 header {
 	width: 100%;
-	padding-top: 4vh;
-	padding-bottom: 4vh;
-	background-color: var(--color-green-2);
-	color: var(--color-green-0);
-	justify-content: center;
-	align-content: center;
-	vertical-align: middle;
-	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: var(--color-green-4);
+	color: var(--color-green-1);
 }
 
 .site-content {
 	color: var(--color-green-1);
 	width: 100%;
-	height: 100vh;
-	padding-top: 4vh;
-	padding-bottom: 4vh;
+	padding-top: 2em;
+	padding-bottom: 2em;
 	text-align: center;
 	margin: auto;
+	margin-top: 4em;
 }
 
 footer {
 	width: 100%;
-	padding-top: 4vh;
-	padding-bottom: 4vh;
-	background-color: var(--color-green-2);
-	color: var(--color-green-0);
+	padding-top: 1em;
+	padding-bottom: 2em;
+	position: fixed;
+	bottom: 0;
+	background-color: var(--color-green-4);
+	color: var(--color-green-1);
 	justify-content: center;
 	align-content: center;
 	vertical-align: middle;
@@ -85,26 +83,28 @@ footer {
 
 .navbar {
 	text-align: center;
+	height: 5em;
+	position: fixed;
 	display: flex;
+	justify-content: right;
+	outline: var(--color-grey-0) solid 2px;
 }
 
 .navbar a {
-	margin-left: 1vh;
-	margin-right: 1vh;
+	vertical-align: middle;
+	height: 100%;
+	margin-top: 1.25em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	transition: all 0.2s ease-in-out;
 }
 
 .navbar a:hover {
 	color: var(--color-green-0);
-	margin-left: 1vh;
-	margin-right: 1vh;
-}
-
-a:hover {
-	color: var(--color-green-0);
 }
 
 h1 {
-	color: var(--color-grey-0);
+	color: var(--color-green-0);
 }
 
 h2 {
@@ -113,4 +113,55 @@ h2 {
 
 h3 {
 	color: var(--color-grey-2);
+}
+
+p {
+	color: var(--color-grey-0);
+}
+
+.icon-image {
+	display: block;
+	width: 4em;
+	height: 4em;
+	margin-top: -0.75em;
+	margin-left: 0.5em;
+	position: fixed;
+	background: url("src/images/LuckyCloverDev-woName.png") no-repeat bottom;
+}
+
+.body-content {
+	width: 60%;
+	margin: auto;
+	border-radius: 1em;
+	background-color: var(--color-green-4);
+	outline: var(--color-grey-0) solid 2px;
+}
+
+.page-break {
+	width: 25%;
+	height: 0.5em;
+	border-radius: 0.25em;
+	background-color: var(--color-green-0);
+	margin: auto;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.svg-icon {
+	width: 2em;
+	height: 2em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+	filter: invert(70%) sepia(95%) saturate(276%) hue-rotate(47deg) brightness(97%) contrast(90%);
+	position: relative;
+	transition: all 0.1s ease-in-out;
+}
+
+.svg-icon:hover {
+	margin-top: 0.0em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	width: 2.5em;
+	height: 2.5em;
 }
