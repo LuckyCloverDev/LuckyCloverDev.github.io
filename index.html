@@ -3,20 +3,29 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>CloverWeb</title>
+	<title>Jeremiah Dobes | Front-End Web Developer</title>
 	<meta name="description" content="The Official Site of Lucky Clover">
 	<link rel="stylesheet" type="text/css" href="src/css/stylemain.css">
+	<script src="src/js/main-script.js"></script>
+	<link rel="icon" href="src/images/LuckyCloverIcon.png">
 </head>
 
 <body>
-	<div class="navbar">
-		<a class="active">Home</a>
-		<a href="comm-info/">Commissions</a>
-		<a href="housefire-studios/">Housefire Studios</a>
-		<a href="contact-me/">Contact</a>
-		<a href="Jeremiah Dobes - Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-		<a href="about/">About</a>
-	</div>
+	<!-- <div id="preloader">
+		<div id="load-animation"></div>
+	</div> -->
+	<header>
+		<nav>
+			<ul>
+				<li><a class="active">Home</a></li>
+				<li><a href="comm-info/">Commissions</a></li>
+				<li><a href="housefire-studios/">Housefire Studios</a></li>
+				<li><a href="contact-me/">Contact</a></li>
+				<li><a href="Jeremiah Dobes - Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+				<li><a href="about/">About</a></li>
+			</ul>
+		</nav>
+	</header>
 	<section class="banner">
 		<div class="banner-inner">
 			<h1>
@@ -48,17 +57,48 @@
 		</div>
 	</section>
 	<section class="main-section">
-		<FadeInSection>
-			<h1>
-				This is a work in progress, move along!<br>>:)
-			</h1>
-		</FadeInSection>
-	</section>
-	<FadeInSection>
 		<h1>
-			Hello
+			This is a work in progress, move along!<br>>:)
 		</h1>
-	</FadeInSection>
+		<div class="tablist">
+			<div class="tab-header">
+				<div class="active tab">
+					Bio
+				</div>
+				<div class="tab">
+					About
+				</div>
+				<div class="tab">
+					Services
+				</div>
+				<div class="tab">
+					Contact
+				</div>
+			</div>
+			<div class="tab-indicator"></div>
+			<div class="tab-body">
+				<div class="active tab-content">
+					<h2>BIOGRAPHY</h2>
+					<p1>Lorem ipsum yadda yadda</p1>
+				</div>
+				<div class="tab-content">
+					<h2>ABOUT</h2>
+					<p1>Lorem ipsum yadda yadda</p1>
+				</div>
+				<div class="tab-content">
+					<h2>SERVICES</h2>
+					<p1>Lorem ipsum yadda yadda</p1>
+				</div>
+				<div class="tab-content">
+					<h2>CONTACT</h2>
+					<p1>Lorem ipsum yadda yadda</p1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<h1>
+		Hello
+	</h1>
 </body>
 
 </html>
