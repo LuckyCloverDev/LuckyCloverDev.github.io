@@ -65,20 +65,20 @@ header {
 	text-align: center;
 	margin: auto;
 	margin-top: 4em;
+	margin-bottom: 2em;
 }
 
 footer {
 	width: 100%;
 	padding-top: 1em;
 	padding-bottom: 2em;
-	position: fixed;
-	bottom: 0;
 	background-color: var(--color-green-4);
 	color: var(--color-green-1);
 	justify-content: center;
 	align-content: center;
 	vertical-align: middle;
 	text-align: center;
+	outline: var(--color-grey-0) solid 2px;
 }
 
 .navbar {
@@ -101,6 +101,18 @@ footer {
 
 .navbar a:hover {
 	color: var(--color-green-0);
+	font-size: 1em;
+}
+
+a {
+	transition: all 0.2s ease-in-out;
+	margin-bottom: 0.5em;
+}
+
+.site-content a:hover {
+	font-size: 1.1em;
+	margin-bottom: 0.35em;
+	color: var(--color-green-1);
 }
 
 h1 {
@@ -123,10 +135,11 @@ p {
 	display: block;
 	width: 4em;
 	height: 4em;
-	margin-top: -0.75em;
+	margin-top: 0em;
 	margin-left: 0.5em;
 	position: fixed;
 	background: url("src/images/LuckyCloverDev-woName.png") no-repeat bottom;
+	transition: all 0.2s ease-in-out;
 }
 
 .body-content {
@@ -135,11 +148,17 @@ p {
 	border-radius: 1em;
 	background-color: var(--color-green-4);
 	outline: var(--color-grey-0) solid 2px;
+	text-align: justify;
+}
+
+.body-content h2 {
+	text-align: center;
+	margin-top: 0.5em;
 }
 
 .page-break {
 	width: 25%;
-	height: 0.5em;
+	height: 0.25em;
 	border-radius: 0.25em;
 	background-color: var(--color-green-0);
 	margin: auto;
@@ -164,4 +183,8 @@ p {
 	margin-right: 0.25em;
 	width: 2.5em;
 	height: 2.5em;
+}
+
+.body-text {
+	margin: 1em;
 }
