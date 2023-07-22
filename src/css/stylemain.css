@@ -101,7 +101,6 @@ footer {
 
 .navbar a:hover {
 	color: var(--color-green-0);
-	font-size: 1em;
 }
 
 a {
@@ -140,6 +139,13 @@ p {
 	position: fixed;
 	background: url("src/images/LuckyCloverDev-woName.png") no-repeat bottom;
 	transition: all 0.2s ease-in-out;
+}
+
+.icon-image:hover {
+	width: 4.5em;
+	height: 4.5em;
+	margin-top: -0.25em;
+	margin-left: 0.25em;
 }
 
 .body-content {
