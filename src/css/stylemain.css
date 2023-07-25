@@ -50,6 +50,7 @@ a {
 }
 
 header {
+	position: fixed;
 	width: 100%;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -112,6 +113,14 @@ a {
 	font-size: 1.1em;
 	margin-bottom: 0.35em;
 	color: var(--color-green-1);
+}
+
+.site-content .main-img {
+	transition: all 0.2s ease-in-out;
+}
+
+.site-content .main-img:hover {
+	scale: 1.05;
 }
 
 h1 {
