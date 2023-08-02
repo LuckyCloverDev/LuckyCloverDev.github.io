@@ -211,15 +211,15 @@ p {
 	border-radius: 1em;
 }
 
-.w3-left, .w3-right, .w3-badge {
+.w3-left, .w3-right{
 	cursor: pointer;
 	width: 10%;
 	margin: auto;
 	display: inline-block;
+	transition: all 0.1s ease-in-out;
 }
 
-.w3-badge {
-	height: 13px;
-	width: 13px;
-	padding: 0;
+.w3-left:hover, .w3-right:hover {
+	color: var(--color-green-0);
+	scale: 110%;
 }
