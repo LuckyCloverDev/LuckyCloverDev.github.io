@@ -203,3 +203,23 @@ p {
 .body-text {
 	margin: 1em;
 }
+
+.mySlides {
+	height: 25em;
+	margin: auto;
+	display: none;
+	border-radius: 1em;
+}
+
+.w3-left, .w3-right, .w3-badge {
+	cursor: pointer;
+	width: 10%;
+	margin: auto;
+	display: inline-block;
+}
+
+.w3-badge {
+	height: 13px;
+	width: 13px;
+	padding: 0;
+}
